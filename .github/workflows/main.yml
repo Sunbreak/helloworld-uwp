@@ -8,4 +8,4 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - uses: warrenbuckley/Setup-MSBuild@v1
-      - run: msbuild -Restore
+      - run: msbuild /t:Pack
